@@ -111,6 +111,6 @@
     tidyDataSet = merge(tidyDataSet, activityLabels, by='activityid', all.x=TRUE);
     
     # Export  tidyDataSet
-    write.table(tidyDataSet, './tidyData.txt', row.names=TRUE, sep='\t');
+    write.table(tidyDataSet, './tidyDataSet.txt', row.names=FALSE, sep='\t');
     
     
